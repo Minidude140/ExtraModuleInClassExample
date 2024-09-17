@@ -15,6 +15,7 @@ Module MainModule
         sumTest = ExtraModule.SumOf(3, 4)
         Console.Write(sumTest)
         Console.WriteLine()
+        Console.WriteLine()
 
         Dim productTest As Integer
         productTest = ExampleClass.ProductOf(3, 4)
