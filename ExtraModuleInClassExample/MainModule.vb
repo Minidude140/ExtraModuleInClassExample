@@ -11,9 +11,16 @@ Option Strict On
 Module MainModule
 
     Sub Main()
-        Dim test As Integer
-        test = ExtraModule.SumOf(3, 4)
-        Console.Write(test)
+        Dim sumTest As Integer
+        sumTest = ExtraModule.SumOf(3, 4)
+        Console.Write(sumTest)
+        Console.WriteLine()
+
+        Dim productTest As Integer
+        productTest = ExampleClass.ProductOf(3, 4)
+        Console.Write(productTest)
+        Console.WriteLine()
+
         Console.Read()
     End Sub
 
